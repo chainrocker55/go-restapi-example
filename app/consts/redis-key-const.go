@@ -1,0 +1,5 @@
+package consts
+
+const (
+	OPERATIONAL_DATE_KEY = "CREDITLIMIT:SBA:OPERATIONAL_DATE"
+)

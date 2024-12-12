@@ -1,0 +1,7 @@
+stages:
+  - trigger-jenkins-tagged
+
+include:
+  - project: invx/devops/templates/gitlab-ci
+    ref: main
+    file: trigger.yml
